@@ -1,0 +1,8 @@
+name: AntiChatPacketKick
+version: 1.0.0
+api-version: 1.19
+description: Get rid of the stupid Out-of-order kick
+main: me.experimental.Main
+author: ExperimentalX
+website: https://pixelatedstudios.net
+prefix: ANTI-CHATKICK
