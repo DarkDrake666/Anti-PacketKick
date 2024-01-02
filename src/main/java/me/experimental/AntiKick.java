@@ -24,7 +24,7 @@ public class AntiKick implements Listener {
     @EventHandler
     public void onKick(PlayerKickEvent e){
         String reason = e.getReason();
-        if(reason.contains("Out-of-order")){
+        if(reason.contains("packets")){
             e.setCancelled(true);
         }
     }
